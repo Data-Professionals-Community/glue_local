@@ -8,7 +8,7 @@ if [[ -z "$AWS_PROFILE" ]]
 then
   echo esqueceu o AWS PROFILE
   echo que tal rodar:
-  echo export AWS_PROFILE=awsaml-507672019655-DeveloperFN
+  echo export AWS_PROFILE=<your desired profile>
   exit 1
 fi
 
