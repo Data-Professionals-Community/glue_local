@@ -6,8 +6,8 @@ source $(dirname "$(readlink -f "$0")")/env.sh
 
 if [[ -z "$AWS_PROFILE" ]]
 then
-  echo esqueceu o AWS PROFILE
-  echo que tal rodar:
+  echo Don't forget your AWS PROFILE
+  echo What about running:
   echo export AWS_PROFILE=<your desired profile>
   exit 1
 fi
